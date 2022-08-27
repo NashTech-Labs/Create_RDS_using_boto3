@@ -4,7 +4,7 @@ import boto3
 # We will take the all imput from the end user.
 
 # You need to enter rds as input
-AWS_service= input("Enter the service name\n")
+AWS_service = input("Enter the service name\n")
 
 # you can enter the instance type for your RDS instance
 instance_class=input("Enter the instance class\n")
